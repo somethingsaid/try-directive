@@ -1,0 +1,43 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	width: 95%;
+	margin: auto;
+}
+
+.brand-logo {
+	background-image: url("images/logo.png");
+	background-repeat: no-repeat;
+	background-size: initial;
+	height: 250px;
+	width: 50%;
+	margin: auto;
+	float: left;
+}
+
+.sign-up, .footer {
+	padding-top: 40px;
+}
+
+.form-section {
+	width: 50%;
+	margin: auto;
+	float: left;
+	height: 250px;
+}
+
+.footer {
+	width: 100%;
+	margin: auto;
+}
+
+.sign-up {
+	border: 1px solid black;
+	overflow: hidden;
+}
